@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:wght@200;400&family=Tangerine&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./app.js" async></script>
+    <title>Carli's Shoppe</title>
+  </head>
+  <body>
+    <nav class="nav header-bkg">
+      <span><a href="./index.html">Carli's Shoppe</a></span>
+    </nav>
+    <div class="header-image">
+      <img src="./images/header-img.jpg" alt="pastries" />
+    </div>
+    <!-- ------------------------- Shop Products Section ------------------------- -->
+    <div class="section">
+      <div class="products">
+        <div class="product">
+          <div class="product__figure">
+            <img
+              src="./images/cake.png"
+              alt="Chocolate Cake"
+              class="product__image"
+            />
+          </div>
+          <div class="product__body">
+            <div class="product__title">Chocolate Delight</div>
+            <div class="product__price">$1.99</div>
+            <button class="btn add-to-cart-js">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product__figure">
+            <img
+              src="./images/bread.png"
+              alt="Korovai Rye Bread"
+              class="product__image"
+            />
+          </div>
+          <div class="product__body">
+            <div class="product__title">Korovai Rye Bread</div>
+            <div class="product__price">$2.99</div>
+            <button class="btn add-to-cart-js">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product__figure">
+            <img
+              src="./images/choctrufbar.png"
+              alt="Chocolate Truffle Bar"
+              class="product__image"
+            />
+          </div>
+          <div class="product__body">
+            <div class="product__title">Chocolate Truffle Bar</div>
+            <div class="product__price">$3.99</div>
+            <button class="btn add-to-cart-js">Add to Cart</button>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product__figure">
+            <img
+              src="./images/pain-au-chocolat.png"
+              alt="Pain Au Chocolat"
+              class="product__image"
+            />
+          </div>
+          <div class="product__body">
+            <div class="product__title">Pain Au Chocolat</div>
+            <div class="product__price">$4.99</div>
+            <button class="btn add-to-cart-js">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="summary-title">
+        <h3>Order Summary</h3>
+      </div>
+      <div class="cart">
+        <!-- <div class="cart__item">
+          <div class="cart__figure">
+            <img
+              src="./images/cake.png"
+              alt="Chocolate Cake"
+              class="cart__image"
+            />
+          </div>
+          <div class="cart__body">
+            <div class="cart__title">Chocolate Delight</div>
+            <div class="cart__price">$1.99</div>
+            <div>
+              <input
+                type="number"
+                min="1"
+                step="1"
+                value="1"
+                class="cart__input cart__quantity-js"
+              />
+              <span><button class="btn-remove">x</button></span>
+            </div>
+          </div>
+        </div>
+        <div class="cart__item">
+          <div class="cart__figure">
+            <img
+              src="./images/bread.png"
+              alt="Korovai Rye Bread"
+              class="cart__image"
+            />
+          </div>
+          <div class="cart__body">
+            <div class="cart__title">Korovai Rye Bread</div>
+            <div class="cart__price">$2.99</div>
+            <div>
+              <input
+                type="number"
+                min="1"
+                step="1"
+                value="1"
+                class="cart__input cart__quantity-js"
+              />
+              <span><button class="btn-remove">x</button></span>
+            </div>
+          </div>
+        </div> -->
+      </div>
+      <div class="total">
+        <span>Total $</span>
+        <span class="total-price-js">4.98</span>
+        <button class="btn-cart btn-purchase-js">Purchase</button>
+      </div>
+    </div>
+  </body>
+</html>
